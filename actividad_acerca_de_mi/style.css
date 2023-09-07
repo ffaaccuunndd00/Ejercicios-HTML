@@ -1,10 +1,85 @@
 header {
-    background-color: #c6c6c6;
+    background-color: #f2f2f2;
     color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
 }
+
 nav a {
     color: #7400ef;
     text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 24px;
+    color: #1d1c1c;
+}
+
+img {
+    border: 2px solid #7400ef;
+    margin: 10px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    header, #info-personal, #habilidades, #Experiencia, #Contacto {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    header, #info-personal, #habilidades, #Experiencia, #Contacto {
+        padding: 20px;
+    }
+
+    h1, h2 {
+        font-size: 22px;
+    }
+
+    table {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+    header, #info-personal, #habilidades, #Experiencia, #Contacto {
+        padding: 30px;
+    }
+
+    h1, h2 {
+        font-size: 28px;
+    }
+
+    table {
+        width: 80%;
+    }
 }
